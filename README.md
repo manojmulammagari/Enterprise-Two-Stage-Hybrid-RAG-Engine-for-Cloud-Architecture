@@ -110,7 +110,7 @@ Evaluated against a synthetic architectural benchmark for citation adherence, gr
 ```
 Enterprise-Two-Stage-Hybrid-RAG-Engine-for-Cloud-Architecture/
 │
-├── AWS_Well_Architected_RAG_ipynb.ipynb   # Full 8-step pipeline with executed outputs
+├── AWS_Well_Architected_RAG.ipynb   # Full 8-step pipeline with executed outputs
 ├── requirements.txt                        # Pinned production dependencies
 └── README.md                               # Architecture overview & documentation
 ```
@@ -139,7 +139,7 @@ export GEMINI_API_KEY="your-gemini-api-key-here"
 ### 4. Run the Pipeline
 Open the notebook in Jupyter or Google Colab and execute all cells:
 ```bash
-jupyter notebook AWS_Well_Architected_RAG_ipynb.ipynb
+jupyter notebook AWS_Well_Architected_RAG.ipynb
 ```
 
 ---
