@@ -1,7 +1,23 @@
+# Core PDF parsing
 pypdf>=4.0.0
+
+# Vector store (ChromaDB with its built-in HNSW index)
 chromadb>=0.4.24
+
+# Embedding model + Cross-Encoder reranker (runs locally on CPU)
 sentence-transformers>=2.6.0
+
+# Sparse BM25 keyword index
 rank-bm25>=0.2.2
+
+# Google Gemini API SDK
 google-genai>=0.1.0
+
+# Numerical operations (used by BM25 argsort)
 numpy>=1.24.0
+
+# Gradio web UI
 gradio>=4.0.0
+
+# Load GEMINI_API_KEY from .env file (optional — can also export in shell)
+python-dotenv>=1.0.0
