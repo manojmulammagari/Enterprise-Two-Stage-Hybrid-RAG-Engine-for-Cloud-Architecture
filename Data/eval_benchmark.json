@@ -1,0 +1,146 @@
+{
+  "description": "AWS Well-Architected RAG Evaluation Benchmark — 15 in-domain + 5 out-of-domain questions",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "Q01_SEC_IAM",
+      "query": "What best practices does the Security pillar specify for IAM root user credentials and MFA enforcement?",
+      "expected_pillar": "Security",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q02_SEC_KMS",
+      "query": "How should organizations manage AWS KMS keys and enforce encryption for data at rest according to the Well-Architected Framework?",
+      "expected_pillar": "Security",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q03_SEC_DETECTIVE",
+      "query": "What detective controls and threat detection services does the Security pillar recommend for incident response?",
+      "expected_pillar": "Security",
+      "category": "in-domain",
+      "difficulty": "hard"
+    },
+    {
+      "id": "Q04_REL_DESIGN",
+      "query": "What are the foundational design principles of the Reliability pillar in the AWS Well-Architected Framework?",
+      "expected_pillar": "Reliability",
+      "category": "in-domain",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q05_REL_RECOVERY",
+      "query": "How does the Reliability pillar recommend implementing automated recovery and backup strategies for workloads?",
+      "expected_pillar": "Reliability",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q06_REL_LIMITS",
+      "query": "What guidance does the Reliability pillar provide for managing service quotas and AWS service limits?",
+      "expected_pillar": "Reliability",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q07_PERF_SELECTION",
+      "query": "How does the Performance Efficiency pillar guide the selection of the right compute resource type for a workload?",
+      "expected_pillar": "Performance Efficiency",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q08_PERF_CACHING",
+      "query": "What caching strategies and architectures does the Performance Efficiency pillar recommend to reduce latency?",
+      "expected_pillar": "Performance Efficiency",
+      "category": "in-domain",
+      "difficulty": "hard"
+    },
+    {
+      "id": "Q09_COST_CONSUMPTION",
+      "query": "How does the Cost Optimization pillar recommend adopting a consumption model to avoid over-provisioning?",
+      "expected_pillar": "Cost Optimization",
+      "category": "in-domain",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q10_COST_RIGHTSIZE",
+      "query": "What right-sizing and resource optimization practices does the Cost Optimization pillar specify for EC2 instances?",
+      "expected_pillar": "Cost Optimization",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q11_OPEX_PRINCIPLES",
+      "query": "What are the core design principles of the Operational Excellence pillar and how do they relate to continuous improvement?",
+      "expected_pillar": "Operational Excellence",
+      "category": "in-domain",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q12_OPEX_RUNBOOK",
+      "query": "What does the Operational Excellence pillar say about runbooks, playbooks, and game days for operational readiness?",
+      "expected_pillar": "Operational Excellence",
+      "category": "in-domain",
+      "difficulty": "hard"
+    },
+    {
+      "id": "Q13_SUST_PRINCIPLES",
+      "query": "What sustainability design principles does the AWS Well-Architected Framework recommend to reduce environmental impact?",
+      "expected_pillar": "Sustainability",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q14_SUST_EFFICIENCY",
+      "query": "How does the Sustainability pillar recommend maximizing utilization and minimizing idle resources in cloud workloads?",
+      "expected_pillar": "Sustainability",
+      "category": "in-domain",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q15_MULTI_PILLAR",
+      "query": "How do the Security and Reliability pillars together recommend designing resilient, least-privilege architectures that can recover from security incidents?",
+      "expected_pillar": "Security",
+      "category": "in-domain",
+      "difficulty": "hard"
+    },
+    {
+      "id": "Q16_OOD_AZURE",
+      "query": "How do I configure Microsoft Azure Cosmos DB multi-region replication and consistency levels?",
+      "expected_pillar": "NONE_OUT_OF_DOMAIN",
+      "category": "out-of-domain",
+      "difficulty": "trap"
+    },
+    {
+      "id": "Q17_OOD_GCP",
+      "query": "What are the best practices for setting up Google Cloud BigQuery partitioned tables for cost savings?",
+      "expected_pillar": "NONE_OUT_OF_DOMAIN",
+      "category": "out-of-domain",
+      "difficulty": "trap"
+    },
+    {
+      "id": "Q18_OOD_KUBERNETES",
+      "query": "How do I configure Kubernetes HPA (Horizontal Pod Autoscaler) with custom metrics using Prometheus?",
+      "expected_pillar": "NONE_OUT_OF_DOMAIN",
+      "category": "out-of-domain",
+      "difficulty": "trap"
+    },
+    {
+      "id": "Q19_OOD_TERRAFORM",
+      "query": "What is the recommended Terraform module structure for managing multi-account AWS deployments using Terragrunt?",
+      "expected_pillar": "NONE_OUT_OF_DOMAIN",
+      "category": "out-of-domain",
+      "difficulty": "trap"
+    },
+    {
+      "id": "Q20_OOD_OPENAI",
+      "query": "How do I fine-tune OpenAI GPT-4 on a custom dataset using the OpenAI API and best practices for prompt engineering?",
+      "expected_pillar": "NONE_OUT_OF_DOMAIN",
+      "category": "out-of-domain",
+      "difficulty": "trap"
+    }
+  ]
+}
