@@ -1,0 +1,30 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment — NEVER commit this folder
+.venv/
+venv/
+env/
+
+# Secret keys — NEVER commit this file
+.env
+
+# ChromaDB on-disk storage (if you switch to persistent mode)
+chroma_db/
+
+# Evaluation output files
+data/benchmark_results.csv
+data/benchmark_results.md
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
