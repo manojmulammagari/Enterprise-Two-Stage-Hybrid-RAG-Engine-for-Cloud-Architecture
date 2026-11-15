@@ -101,6 +101,11 @@ GEMINI_TEMPERATURE = 0.0   # Deterministic — zero randomness for factual answe
 # 8.  Default PDF path  (override at runtime via app.py or CLI)
 # ---------------------------------------------------------------------------
 
-DEFAULT_PDF_PATH = "data/wellarchitected-framework-2023-04-10.pdf"
+import os
+
+DEFAULT_PDF_PATH = (
+    "data/wellarchitected-framework-2023-04-10.pdf"
+    if os.path.exists("data/wellarchitected-framework-2023-04-10.pdf")
+    else "Data/wellarchitected-framework-2023-04-10.pdf"
+)
 # If the user does NOT upload a custom PDF, the app falls back to this path.
-# The file lives in data/ alongside eval_benchmark.json.
