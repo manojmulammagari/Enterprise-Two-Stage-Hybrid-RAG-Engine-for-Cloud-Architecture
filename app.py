@@ -341,8 +341,8 @@ if __name__ == "__main__":
     # Build and launch the Gradio app
     app = build_ui()
     app.launch(
-        server_name = "0.0.0.0",   # Listen on all interfaces (access from LAN)
-        server_port = 7860,         # Default Gradio port
-        share       = False,        # Set True to get a public tunnel URL
+        server_name = "127.0.0.1", # Localhost (prevents ERR_ADDRESS_INVALID on Windows)
+        server_port = 7860,        # Default Gradio port
+        share       = False,       # Set True to get a public tunnel URL
         debug       = False,
     )
