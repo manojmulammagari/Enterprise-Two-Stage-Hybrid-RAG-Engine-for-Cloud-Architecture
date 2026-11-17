@@ -1,7 +1,7 @@
 # =============================================================================
 # src/ingestion.py  —  PDF loading, chunking, and dual-index construction
 # =============================================================================
-# What this file does (interview talking points):
+# What this file does:
 #
 #   1. Reads the PDF page-by-page with pypdf.
 #   2. Detects which AWS Well-Architected pillar each page belongs to.
