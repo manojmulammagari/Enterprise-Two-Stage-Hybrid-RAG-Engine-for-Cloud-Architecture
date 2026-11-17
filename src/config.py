@@ -3,7 +3,7 @@
 # =============================================================================
 # Why a config file?
 #   Instead of scattering magic numbers across five different files, we keep
-#   ALL tunable parameters here.  In an interview you can say:
+#   ALL tunable parameters here. 
 #   "Any hyperparameter tweak only touches this one file."
 # =============================================================================
 
